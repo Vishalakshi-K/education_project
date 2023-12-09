@@ -1,0 +1,42 @@
+.Footer{
+    background-image: url("https://www.bhmpics.com/downloads/Particles-Wallpapers-/15.dust-particles-on-black-background-picture-id1220396440.jpg");
+    color: aliceblue; height: 60vh;
+}
+
+.footerdata{
+    display: flex; 
+}
+
+.Footer h1{
+    margin-left: 0%; text-decoration: underline; font-size: 2rem; margin-bottom: -1%;
+}
+
+.Footer img{
+    width: 12%; height: 6vh; margin-top: -1%; margin-left: 2%;
+}
+
+.footer-2{
+    margin-left: 7%; 
+}
+
+.footer-2 h5{
+    font-size: 1rem;
+}
+
+.footer-3{
+    margin-left: 10%;
+}
+
+.footer-4 h1{
+    margin-left: 30%; margin-top: -1%;
+}
+
+.footer-4 .data{
+    font-size: 0.8rem; margin-left: 10%;
+}
+
+.footer-4 iframe{
+    margin-top: 3%; border-radius: 1rem; margin-left: 10%;
+}
+
+

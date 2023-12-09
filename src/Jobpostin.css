@@ -1,0 +1,16 @@
+.Jobpost{
+
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    background-color: azure;
+}
+.Jobdemo{
+    margin-right: 200px;
+    background-color: darkseagreen;
+    border-radius: 20px;
+    padding: 100px;
+}
+.Jobheading{
+    background-image: linear-gradient(to right, orange,grey);
+}

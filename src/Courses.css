@@ -1,0 +1,118 @@
+.homecontainer{
+   padding: 25px;
+    margin: 20px;
+    background-size: cover;
+ }
+ .trendcourse1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 150px;
+    justify-content: center;
+ }
+ .CCC img{
+    height: 50px;
+ }
+ .cardsR{
+    margin: 20px;
+    padding: 20px;
+ }
+ 
+ .cimage{
+    width: cover;
+    height: 350px;
+ }
+ .homecontainer h1{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .homecardsrow1{
+    padding: 10px;
+    margin: 20px;
+ }
+ .homecardsrow2{
+    padding: 10px;
+    margin: 20px;
+ }
+ .card{
+    margin: 5px;
+ }
+ .smallcards{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+ .smallcards h1{
+    padding-top: 20px;
+ }
+ .smallcards:hover{
+    transition: 1s;
+    background-color: rgb(38, 219, 77);
+    border-radius: 50px;
+ }
+ .homecareers{
+    background-color: darkorchid;
+    padding: 15px;
+    margin: 10px;
+    height: 200px;
+    border-radius: 25px;
+    border-color: azure;
+ }
+ .homecareers h1{
+    color: chocolate;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+ }
+ .homecareers p{
+    color: aliceblue;
+ }
+ .homecareers button{
+    border-radius: 10px;
+    margin: 5px;
+    border-color: aliceblue;
+    height: 50px;
+    width: 200px;
+ }
+ .homecareers button:hover{
+    background-color: aquamarine;
+ }
+ 
+ .dropbtn {
+    background-color: #1b14ee;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #0b8edb;}

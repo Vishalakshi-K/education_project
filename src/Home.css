@@ -1,0 +1,253 @@
+.head{
+    padding: 20px 0;
+    color: black;
+
+}
+
+.logo h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.container{
+    max-width: 85%;
+    margin: auto;
+}
+
+header{
+    background-color:rgba(64, 61, 61, 0.2) ;
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+header ul {
+    padding: 30px 20px;
+}
+header li{
+    margin-right: 40px;
+}
+header ul li a{
+    color:black;
+    font-weight: 500;
+    transition: 0.5s;
+}
+header ul li a:hover {
+    color: #1eb2a6 ;
+}
+.start{
+    display: flex;
+    justify-content:end ;
+    background-color: #1eb2a6;
+    padding: 30px 70px ;
+    color: black;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.flexSB{
+    display: flex;
+}
+.image{
+    width: 1200px;
+    padding: 8px;
+    margin-left: 15px;
+}
+.image1{
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+.content{
+    margin: 20px;
+}
+.content1{
+    display: flex;
+    padding: 25px;
+}
+.subcontent {
+    
+    margin: 8px;
+    margin-left: 10px;
+    font-size: large;
+    padding: 15px;
+}
+.subcontent1 {
+    
+    margin: 8px;
+    margin-right: 20px;
+    font-size: large;
+    padding: 15px;
+}
+.rahul{
+    width: 380px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 15px;
+}
+.rahul1{
+    
+    border-radius: 10px;
+    width: 100%;
+
+}
+.rahul2{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 2px;
+    align-items: center;
+}
+.rahul2 p {
+    font-size: large;
+}
+.sideimage{
+    width: 450px;
+    border-radius: 20px;
+}
+.review{
+    width: 1050px;
+    margin-left: 135px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #1eb2a6;
+    color: rgb(120, 61, 175);
+}
+
+.testimonial1{
+    border: 2px solid black;
+    width: 450px;
+    height: 32vh;
+}
+.testimonial1 h3 {
+    font-size: large;
+}
+.timage{
+    border: 2px solid black;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.awardscontent{
+    display: flex;
+    justify-content: center;
+}
+.awards{
+    background-color: #b6e2df;
+    border: 0.5px solid black;
+    border-radius: 12px;
+    width: 450px;
+    height: 15vh;
+    margin: 15px;
+    display: flex;
+}
+.award1{
+    border-radius: 50%;
+    width: 100px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.best1{
+    margin-top: -6px;
+    margin-left: 45px;
+}
+
+.benifits123{
+    width: 550px;
+    margin: 20px auto;
+    
+}
+.benifits1{
+    width: 650px;
+    height: 55vh;
+    position: absolute;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+.rogramme{
+    padding: 12px;
+}
+.programme{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    width: 320px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards :hover{
+    transform: scale(0.9);
+}
+.fullstack{
+    width: 100%;
+    border-radius: 10px;
+}
+.programme h1{
+    padding: 8px;
+}
+.programme button{
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: large;
+    cursor: pointer;
+    
+}
+.matter123{
+    position: relative;
+}
+.matter123{
+    font-size: x-large;
+    padding: 11px;
+}
+.faq{
+    margin-left: 200px;
+}
+
+.faqmain{
+    display: flex;
+}
+.a1{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 550px;
+    padding: 20px;
+    background-color: #1eb2a6;
+    margin-left: 150px;
+    
+}
+.a2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+}
+.a2 p {
+    font-size: larger;
+}
+.a3{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 550px;
+    padding: 20px;
+    background-color: white;
+    margin-left: 150px;
+
+}
+.youtube{
+    display: flex;
+    justify-content: space-evenly;
+}
