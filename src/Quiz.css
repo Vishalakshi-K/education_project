@@ -1,0 +1,33 @@
+.Quiz{
+    background-image: url("https://img.freepik.com/premium-vector/neon-quiz-sign-glow-question-mark-lighting-frame_53562-12652.jpg");
+    background-repeat: no-repeat; width: 100%; background-size: cover; height: 100vh; margin-top: 0%; color: aliceblue;
+}
+
+.Quiz h1{
+    margin-left: 30%; font-size: 3rem;
+    color: aliceblue;
+}
+
+.Quiz h2{
+    margin-left: 40%; text-decoration: underline; font-size: larger; margin-top: 5%;
+}
+
+.question-card ul{
+    margin-left: 40%; font-size: 1.2rem; cursor: pointer; 
+}
+
+.question-card ul li:hover{
+    color: rgb(34, 209, 28);
+}
+
+.question-text {
+    margin-left: 35%; font-size: 1.5rem;
+}
+
+.final-results h1{
+    margin-left: 35%;
+}
+
+.final-results h2{
+    margin-top: 3%; 
+}

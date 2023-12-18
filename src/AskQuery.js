@@ -36,7 +36,7 @@ export default function AskQuery(){
                                 <a class="nav-link active" aria-current="page" href="#"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#fullstackVedios">Vedios</a>
+                                <Link to='/Courseafterpay'><a class="nav-link" href="#fullstackVedios">Vedios</a></Link>
                             </li>
                             <li class="nav-item">
                                 <Link to="/Assessment"><a class="nav-link" href="#">Assessment</a></Link>

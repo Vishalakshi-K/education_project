@@ -4,6 +4,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.js';
 import './Employeelogin.css'
 import { Link} from "react-router-dom";
 import { useState } from "react";
+import { setUserDetails, setEmailInputValue } from './AuthState.js';
 import Menubar from "./Menubar.js";
 
 
@@ -52,7 +53,7 @@ export default function EmployeeLogin(){
                     <tr><td>Password</td>
                     <td><input type="password" id="password" onChange={(e)=>{setpassword(e.target.value)}} required></input></td></tr>
                 </table> <br/>
-               <Link> <button className="btn btn-success" onClick={employeelogin}
+               <Link to="Studentprofile"> <button className="btn btn-success" onClick={employeelogin}
                style={{marginLeft: "40%"}}>Login</button></Link>
                 {error && <p style={{color:"red"}}>{errorMessage}</p>}                     
                 <p>Please Note: By continuing and signing in, you agree to Anarghya's Terms & Conditions and Privacy Policy.</p>

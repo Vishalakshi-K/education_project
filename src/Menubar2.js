@@ -11,7 +11,7 @@ export default function Menubar2(){
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="navcontainer container-fluid">
                     <Link to="/"><img className="comlogo" src="companylogo.jpeg"/></Link>
-                    <p style={{paddingLeft:"100px"}}>Learn in your way.</p>
+                    <p style={{paddingLeft:"100px"}}><h3>Anarghya Eduplanner</h3></p>
                     <div className="menubar d-flex ms-auto order-5" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">

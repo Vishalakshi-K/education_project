@@ -90,7 +90,6 @@ const Signup = () => {
         errors.fullname = "fullname is not valid";  
     }    
 
-    //Email    
     if (!data.email) {    
         errors.email = "email is required";
     }    
@@ -98,7 +97,6 @@ const Signup = () => {
         errors.email = "email is not valid";    
     }    
 
-    //password
     if (!data.password) {    
         errors.password = "password is required";    
     }    
@@ -106,7 +104,6 @@ const Signup = () => {
         errors.password = "7 to 15 characters which contain at least one numeric digit and a special character";    
     }   
     
-    //confirm password
     if (!data.confirmpassword) {    
         errors.confirmpassword = "confirmpassword is required";    
     }    
@@ -114,12 +111,10 @@ const Signup = () => {
         errors.confirmpassword = "password and confirm password are not same";    
     } 
 
-    //Gender    
     if (data.gender === '' || data.gender === "select") {    
         errors.gender = "Select gender.";    
     }    
 
-    //Phone number    
     if (!data.phonenumber) {    
         errors.phonenumber = "Phone number is required.";    
     }    
@@ -129,13 +124,11 @@ const Signup = () => {
         }    
     }    
 
-    //City    
     if (data.city === '' || data.city === "select") { 
         errors.city = "Select city.";    
     }    
     return errors;
   };
-
 
 
   return (
@@ -192,21 +185,21 @@ const Signup = () => {
                                 <option value="male">Male</option>    
                                 <option value="female">Female</option>    
                                 <option value="female">Other</option>    
-                                </select>
-                                {errors.gender && <p style={{color: "red"}}>{errors.gender}</p>}               
-                                </div>    
-                                <div>    
+                            </select>
+                            {errors.gender && <p style={{color: "red"}}>{errors.gender}</p>}               
+                        </div>    
+                            <div>    
                                 <label htmlFor="phoneNumber">Phone Number</label>    
                                 <input type="text" name="phonenumber"    
                                 onChange={handleChange}
                                 value={formData.phonenumber}    
                                 placeholder="Your phone number.."    
                                 />
-                                {errors.phonenumber && <p style={{color: "red"}}>{errors.phonenumber}</p>}           
-                                </div>    
-                                <div>    
-                                <label htmlFor="city">City</label> 
-                                <select name="city"    
+                            {errors.phonenumber && <p style={{color: "red"}}>{errors.phonenumber}</p>}           
+                            </div>    
+                            <div>    
+                            <label htmlFor="city">City</label> 
+                            <select name="city"    
                                 value={formData.city}    
                                 onChange={handleChange}
                                 >    

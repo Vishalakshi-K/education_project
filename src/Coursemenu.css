@@ -1,0 +1,14 @@
+.coursemenu{
+    position: fixed; 
+}
+
+.coursemenu ul{
+    list-style: none;
+    background: linear-gradient(-45deg, #571845, #c70039);
+    background-repeat: no-repeat; width: 200%; height: 5vh; margin-top: -8%; 
+}
+
+.coursemenu ul li{
+    display: inline-block; padding-inline: 20px;
+    color: antiquewhite; cursor: pointer; 
+}

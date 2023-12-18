@@ -1,9 +1,11 @@
 .homecontainer{
    padding: 25px;
     margin: 20px;
+    background-image: url("C:\Users\Admin\Desktop\Educationsite-main\public\homebg1.jpeg");
     background-size: cover;
  }
  .trendcourse1{
+    background-image: url('C:\Users\Admin\Desktop\Educationsite-main\public\bootstrap2.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;

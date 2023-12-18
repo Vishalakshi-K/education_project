@@ -1,5 +1,4 @@
 import React from "react";
-import Menubar from "./Menubar";
 import Home from "./Home";
 import Login from "./Login";
 import Signup from "./Signup";
@@ -7,7 +6,6 @@ import Courses from "./Courses";
 import Profile from "./Profile";
 import Contactus from "./Contactus";
 import Preschool from "./Preschool";
-import Footer from "./Footer";
 import Fullstackcourse from "./Fullstackcourse";
 import Studentlogin from "./Studentlogin";
 import Employeelogin from "./Employeelogin"
@@ -20,14 +18,19 @@ import AskQuery from "./AskQuery";
 import Jobposts from "./Jobposts";
 import {BrowserRouter,Routes,Route,Link} from 'react-router-dom';
 import Payment from "./Payment";
-import Courseafterpay from "./Courseafterpay";
-import Assessment from "./Assessment";
-
+import Quiz from "./Quiz";
+import CourseVideos from "./CourseVideos";
+import Coursepage from "./Coursepage";
+import Coursesidebar from "./Coursesidebar";
+import Coursemenu from "./Coursemenu";
+import Frequent from "./Frequent";
+import Coursepage2 from "./Coursepage2";
+import Payment2 from "./Payment2";
 export default function App(){
     return(
         <BrowserRouter>
             
-            <Routes>
+        <Routes>
                     <Route path='/Courses' element={<Courses/>}/>
                     <Route path='/' element={<Home/>}/>
                     <Route path='/Login' element={<Login/>}/>
@@ -45,10 +48,17 @@ export default function App(){
                     <Route path="/Jobposting" element={<Jobposting/>}/>
                     <Route path="/AskQuery" element={<AskQuery/>}/>   
                     <Route path="/Jobposts" element={<Jobposts/>}/>
-                    <Route path="/payment" element={<Payment/>}/>
-                    <Route path="/assessment" element={<Assessment/>}/>
-                    <Route path="/courseafterpay" element={<Courseafterpay/>}/>
-             </Routes>
+                    <Route path="/Courses/Payment" element={<Payment/>}/>
+                    <Route path="/Quiz" element={<Quiz/>}/>
+                    <Route path="/Frequent" element={<Frequent/>}/>
+                    <Route path="/Courses/coursepage" element={<Coursepage/>}/>
+                    <Route path="/CourseVideos" element={<CourseVideos/>}/>
+                    <Route path="/Coursesidebar" element={<Coursesidebar/>}/>
+                    <Route path="/coursemenu" element={<Coursemenu/>}/>
+                    <Route path="/Payment2" element={<Payment2/>}/>
+                    <Route path="/Coursepage2" element={<Coursepage2/>}/>
+
+    </Routes>
         </BrowserRouter>
     
     );

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import Menubar2 from './Menubar2';
 
 export default function Jobposts() {
   const [readMore,setReadMore]=useState(false);
@@ -10,8 +11,8 @@ export default function Jobposts() {
   return (
     <>
     
-
-    <h1 style={{marginTop: "-3%", marginLeft: "40%", fontSize: "2.5rem"}}>Profiles of Our Students</h1>
+    <Menubar2></Menubar2>
+    <h1 style={{marginTop: "9%", marginLeft: "40%", fontSize: "2.5rem"}}></h1>
     <div>
             <nav className="sidebar" style={{marginTop: "-9%"}}>
                 <div className="scrollbox">
@@ -142,7 +143,7 @@ export default function Jobposts() {
         <br/> <br/>
   
         <div className="App" style={{marginTop: "0%", cursor: "pointer"}}>
-          <a className="read-more-link" onClick={()=>{setReadMore(!readMore)}}><h2>{linkName}</h2></a>
+          <a className="read-more-link" onClick={()=>{setReadMore(!readMore)}}><h2 style={{marginLeft: "25%"}}>{linkName}</h2></a>
           {readMore && extraContent}
         </div>
         

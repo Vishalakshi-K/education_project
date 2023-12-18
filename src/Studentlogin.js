@@ -15,7 +15,7 @@ export default function Login() {
   const [errorMessage, setErrorMessage] = useState("");
   const [error, setError] = useState(false);
   const navigate = useNavigate('');
-
+  const [data, setData]=useState("");
 
   const LoginForm = async () => {
    
@@ -36,7 +36,7 @@ export default function Login() {
       if (digits.test(userName) || specialChars.test(userName))
         throw new Error("sorry only [a-z] characters are allowed for userName");
 
-      if (emailSpecialChars.test(email) || email.includes(" ") || digits.test(email[0]) || !email.endsWith("gmail.com"))
+      if (emailSpecialChars.test(email) || email.includes(" ") || digits.test(email[0]))
         throw new Error("sorry only [a-z], numbers [0-9],and special characters [. @] are allowed for emailId");
         try{
             const response =  await axios.post("http://localhost:8080/api/login", data);
@@ -44,7 +44,7 @@ export default function Login() {
             setEmail('');
             setPassword('')
             if (response.data==="login success"){
-                navigate('/courses')
+                navigate('/Courses')
             }
         }
         catch{
@@ -56,7 +56,7 @@ export default function Login() {
       setErrorMessage(e.message);
     }
   }
-
+  
   return (
     <>
     <Menubar></Menubar>
