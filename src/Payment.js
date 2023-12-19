@@ -76,7 +76,7 @@ const Payment = () => {
     const validationErrors = validateForm(formData);
     if (Object.keys(validationErrors).length === 0) {
         alert('You are successfully Booked' + formData.fullname)
-        window.location.assign("HTML")    
+        window.location.assign("Studentdb")    
     } else {
       setErrors(validationErrors);
     }

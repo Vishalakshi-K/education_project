@@ -26,6 +26,9 @@ import Coursemenu from "./Coursemenu";
 import Frequent from "./Frequent";
 import Coursepage2 from "./Coursepage2";
 import Payment2 from "./Payment2";
+import Calender from "./Calender";
+import Dashboard from "./Dashboard";
+import Studentdb from "./Studentdb";
 export default function App(){
     return(
         <BrowserRouter>
@@ -33,6 +36,9 @@ export default function App(){
         <Routes>
                     <Route path='/Courses' element={<Courses/>}/>
                     <Route path='/' element={<Home/>}/>
+                    <Route path='/Courses/Studentdb' element={<Studentdb/>}/>
+                    <Route path='/Calender' element={<Calender/>}/>
+                    <Route path='/Dashboard' element={<Dashboard/>}/>
                     <Route path='/Login' element={<Login/>}/>
                     <Route path='/Signup' element={<Signup/>}/>
                     <Route path='/Profile' element={<Profile/>}/>

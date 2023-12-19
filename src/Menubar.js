@@ -17,18 +17,20 @@ export default function Menubar(){
                         <li className="nav-item">
                         <Link style={{textDecoration:'none'}} to="/"><b>Home</b></Link>
                         </li>
-                      
                         <li className="nav-item">
-                        <Link style={{textDecoration:'none'}} to="/Login"><b>Login</b></Link>
-                        </li>
-                        <li className="nav-item">
-                        <Link style={{textDecoration:'none'}} to="/Signup"><b>Signup</b></Link>
+                        <Link style={{textDecoration:'none'}} to="/Courses"><b>Courses</b></Link>
                         </li>
                         <li className="nav-item">
                         <Link style={{textDecoration:'none'}} to="/Aboutus"><b>Aboutus</b></Link>
                         </li>
                         <li className="nav-item">
                         <Link style={{textDecoration:'none'}} to="/Contactus"><b>Contactus</b></Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link style={{textDecoration:'none'}} to="/Login"><b>Login</b></Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link style={{textDecoration:'none'}} to="/Signup"><b>Signup</b></Link>
                         </li>
                         
                        
